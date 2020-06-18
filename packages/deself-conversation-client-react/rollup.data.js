@@ -9,7 +9,7 @@ import resolve from '@rollup/plugin-node-resolve';
 
 
 
-export const input = 'source/index.tsx';
+export const input = 'source/index.ts';
 export const plugins = [
     replace({
         'process.env.ENV_MODE': JSON.stringify(process.env.ENV_MODE),
