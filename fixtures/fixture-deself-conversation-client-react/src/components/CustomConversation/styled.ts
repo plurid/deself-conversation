@@ -46,4 +46,9 @@ export const StyledActionsReply = styled.div`
 
 
 export const StyledActionsReplies = styled.div`
+    margin-right: 10px;
+`;
+
+
+export const StyledActionsHighlights = styled.div`
 `;

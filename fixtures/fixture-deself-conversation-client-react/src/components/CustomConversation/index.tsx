@@ -13,6 +13,7 @@ import {
     StyledActions,
     StyledActionsReply,
     StyledActionsReplies,
+    StyledActionsHighlights,
 } from './styled';
 
 
@@ -60,6 +61,10 @@ const CustomConversation = (
                 <StyledActionsReplies>
                     replies
                 </StyledActionsReplies>
+
+                <StyledActionsHighlights>
+                    highlights
+                </StyledActionsHighlights>
             </StyledActions>
         </StyledCustomConversation>
     );
