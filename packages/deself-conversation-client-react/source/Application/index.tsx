@@ -13,6 +13,7 @@ import {
 import {
     Conversation,
     Converser,
+    CustomConversationComponent,
 } from '../modules/data/interfaces';
 
 import ConversationComponent from '../modules/components/Conversation';
@@ -27,6 +28,7 @@ export interface DeselfConversationProperties {
     conversations: Conversation[];
     conversers: Converser[];
     configuration?: PluridPartialConfiguration;
+    ConversationComponent?: React.FC<CustomConversationComponent>;
 }
 
 const DeselfConversation = (
@@ -37,6 +39,7 @@ const DeselfConversation = (
         conversations,
         conversers,
         configuration,
+        ConversationComponent: ConversationComponentProperty,
     } = properties;
 
     const planes: PluridPlane[] = [
@@ -54,6 +57,7 @@ const DeselfConversation = (
     const context: IContext = {
         conversations: indexing.create(conversations, 'map', 'id'),
         conversers: indexing.create(conversers, 'map', 'id'),
+        ConversationComponent: ConversationComponentProperty,
     };
 
 
