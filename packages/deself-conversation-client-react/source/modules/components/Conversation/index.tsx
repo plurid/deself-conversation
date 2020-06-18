@@ -7,6 +7,13 @@ import {
 } from '@plurid/plurid-data';
 
 import {
+    StyledConversation,
+    StyledMetadata,
+    StyledMetadataFrom,
+    StyledMetadataDate,
+} from './styled';
+
+import {
     Conversation,
 } from '../../data/interfaces';
 
@@ -64,19 +71,25 @@ const Conversation = (
         return (<></>);
     }
 
+    const fromConverser = conversers.get(conversation.from);
+
+    if (!fromConverser) {
+        return (<></>);
+    }
+
+
+    /** computing */
     const {
         data,
-        from,
         timestamp,
         children,
         html,
     } = conversation;
 
-    const fromConverser = conversers.get(from);
-
-    if (!fromConverser) {
-        return (<></>);
-    }
+    const timestampDate = new Date(timestamp);
+    const timestampString = timestampDate.toLocaleTimeString()
+        + ', '
+        + timestampDate.toLocaleDateString();
 
 
     /** render */
@@ -90,19 +103,21 @@ const Conversation = (
     }
 
     return (
-        <div>
-            <div>
-                {timestamp}
-            </div>
+        <StyledConversation>
+            <StyledMetadata>
+                <StyledMetadataFrom>
+                    {fromConverser.identonym}
+                </StyledMetadataFrom>
 
-            <div>
-                {fromConverser.identonym}
-            </div>
+                <StyledMetadataDate>
+                    at {timestampString}
+                </StyledMetadataDate>
+            </StyledMetadata>
 
             <div>
                 {data}
             </div>
-        </div>
+        </StyledConversation>
     );
 }
 

@@ -24,6 +24,18 @@ import Context, {
 
 
 
+const defaultSpaceConfiguration: PluridPartialConfiguration = {
+    elements: {
+        plane: {
+            width: 0.3,
+            controls: {
+                show: false,
+            },
+        },
+    },
+}
+
+
 export interface DeselfConversationProperties {
     conversations: Conversation[];
     conversers: Converser[];
@@ -70,7 +82,7 @@ const DeselfConversation = (
         >
             <PluridApplication
                 planes={planes}
-                configuration={configuration}
+                configuration={configuration || defaultSpaceConfiguration}
                 view={view}
             />
         </Context.Provider>
