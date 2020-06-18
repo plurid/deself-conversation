@@ -52,6 +52,8 @@ const DeselfConversation = (
         },
     ];
 
+    const view = conversations.map(conversation => conversation.id);
+
 
     /** context */
     const context: IContext = {
@@ -69,6 +71,7 @@ const DeselfConversation = (
             <PluridApplication
                 planes={planes}
                 configuration={configuration}
+                view={view}
             />
         </Context.Provider>
     );
