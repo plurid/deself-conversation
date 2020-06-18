@@ -52,7 +52,7 @@ const DeselfConversation = (
         },
     ];
 
-    const view = conversations.map(conversation => conversation.id);
+    const view = conversations.map(conversation => '/conversation/' + conversation.id);
 
 
     /** context */
