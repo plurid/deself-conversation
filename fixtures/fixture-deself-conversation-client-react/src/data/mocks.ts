@@ -34,10 +34,10 @@ export const conversations: Conversation[] = [
 export const conversers: Converser[] = [
     {
         id: 'one',
-        identonym: 'one',
+        identonym: 'One',
     },
     {
         id: 'two',
-        identonym: 'two',
+        identonym: 'Two',
     },
 ];
