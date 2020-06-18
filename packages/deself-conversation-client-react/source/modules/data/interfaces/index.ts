@@ -17,11 +17,6 @@ export interface Conversation {
     from: string;
 
     /**
-     * Space ID.
-     */
-    to: string;
-
-    /**
      * Conversation message.
      */
     data: string;
@@ -38,4 +33,11 @@ export interface Conversation {
 export interface Converser {
     id: string;
     identonym: string;
+}
+
+
+
+export interface CustomConversationComponent {
+    conversation: Conversation;
+    fromConverser: Converser;
 }

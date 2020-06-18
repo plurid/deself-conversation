@@ -31,6 +31,7 @@ const Conversation = (
     const {
         conversations,
         conversers,
+        ConversationComponent,
     } = context;
 
 
@@ -66,7 +67,6 @@ const Conversation = (
     const {
         data,
         from,
-        to,
         timestamp,
         children,
         html,
@@ -80,6 +80,15 @@ const Conversation = (
 
 
     /** render */
+    if (ConversationComponent) {
+        return (
+            <ConversationComponent
+                conversation={conversation}
+                fromConverser={fromConverser}
+            />
+        );
+    }
+
     return (
         <div>
             <div>
