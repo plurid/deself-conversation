@@ -9,6 +9,10 @@ import {
     StyledMetadata,
     StyledMetadataFrom,
     StyledMetadataDate,
+    StyledMessage,
+    StyledActions,
+    StyledActionsReply,
+    StyledActionsReplies,
 } from './styled';
 
 
@@ -44,9 +48,19 @@ const CustomConversation = (
                 </StyledMetadataDate>
             </StyledMetadata>
 
-            <div>
+            <StyledMessage>
                 {conversation.data}
-            </div>
+            </StyledMessage>
+
+            <StyledActions>
+                <StyledActionsReply>
+                    reply
+                </StyledActionsReply>
+
+                <StyledActionsReplies>
+                    replies
+                </StyledActionsReplies>
+            </StyledActions>
         </StyledCustomConversation>
     );
 }
