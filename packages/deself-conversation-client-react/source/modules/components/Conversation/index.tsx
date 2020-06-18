@@ -25,7 +25,7 @@ const Conversation = (
     const context = useContext(Context);
 
     if (!context) {
-        return;
+        return (<></>);
     }
 
     const {
@@ -54,13 +54,13 @@ const Conversation = (
     const id = parameters.id;
 
     if (!id) {
-        return;
+        return (<></>);
     }
 
     const conversation = conversations.get(id);
 
     if (!conversation) {
-        return;
+        return (<></>);
     }
 
     const {
@@ -75,7 +75,7 @@ const Conversation = (
     const fromConverser = conversers.get(from);
 
     if (!fromConverser) {
-        return;
+        return (<></>);
     }
 
 
