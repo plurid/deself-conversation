@@ -18,17 +18,17 @@ const App = () => {
         <DeselfConversation
             conversations={conversations}
             conversers={conversers}
-            ConversationComponent={CustomConversation}
-            configuration={{
-                elements: {
-                    plane: {
-                        width: 0.3,
-                        controls: {
-                            show: false,
-                        },
-                    },
-                },
-            }}
+            // ConversationComponent={CustomConversation}
+            // configuration={{
+            //     elements: {
+            //         plane: {
+            //             width: 0.3,
+            //             controls: {
+            //                 show: false,
+            //             },
+            //         },
+            //     },
+            // }}
         />
     );
 }
