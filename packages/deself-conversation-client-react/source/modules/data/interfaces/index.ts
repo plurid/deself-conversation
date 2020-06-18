@@ -53,5 +53,5 @@ export interface ConversationData {
 export interface ConversationLink {
     start: number;
     length: number;
-    router: string;
+    route: string;
 }
