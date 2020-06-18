@@ -41,3 +41,17 @@ export interface CustomConversationComponent {
     conversation: Conversation;
     fromConverser: Converser;
 }
+
+
+
+export interface ConversationData {
+    text: string;
+    links: ConversationLink[];
+}
+
+
+export interface ConversationLink {
+    start: number;
+    length: number;
+    router: string;
+}
