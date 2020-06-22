@@ -1357,15 +1357,15 @@
   resolved "https://registry.yarnpkg.com/@plurid/deself-conversation-client-react/-/deself-conversation-client-react-0.0.0.tgz#d15e859e5d74be3620d30c8047169b183d09a618"
   integrity sha512-dZFMwAE2pB0v6R+kmqkHLrAR/X/YkQyqU+EALLBlEwuQMCo3IQzVGwzzWCecp4XoFCwPxnpBFnwvqiFeksizqg==
 
-"@plurid/plurid-data@^0.1.154":
-  version "0.1.154"
-  resolved "https://registry.yarnpkg.com/@plurid/plurid-data/-/plurid-data-0.1.154.tgz#c93f647e4bad0b0152837fd995f1a8a247f81c80"
-  integrity sha512-LwGYMcvmMbHot8Ve3Bn70MacNA3w0UX25aWFRxOGrWuxJkJZ91ebN2Dq3pI22ifG95Th0TgB5krd8xJOvn+gJw==
+"@plurid/plurid-data@^0.1.155":
+  version "0.1.155"
+  resolved "https://registry.yarnpkg.com/@plurid/plurid-data/-/plurid-data-0.1.155.tgz#857202b2015a9271a875d58db0c036f877e1d7c4"
+  integrity sha512-5UVSKghnR/dai0IV2qIv2fcigWhfyT/b/78UtCaIl2ruaq5Bb9cSczYCwAYPA2Op9MSicMd7DRIMVH2qp8Q7mg==
 
-"@plurid/plurid-engine@^0.1.91":
-  version "0.1.91"
-  resolved "https://registry.yarnpkg.com/@plurid/plurid-engine/-/plurid-engine-0.1.91.tgz#57dd6244c0b16f3656fd37bff904cf0840264d0f"
-  integrity sha512-eLpSvCQewmwOfvTFGOmnIkLu5aJ58V+aokArgw/BpeD7xyjOifS6AT2BxIDECH/nB/ss/dj90ism+V8YcZeHcw==
+"@plurid/plurid-engine@^0.1.93":
+  version "0.1.93"
+  resolved "https://registry.yarnpkg.com/@plurid/plurid-engine/-/plurid-engine-0.1.93.tgz#f4dc4db76c00506a265e4cd971b33c33de038241"
+  integrity sha512-sFZjfnYKz5/P9DkdKHiyDBWscMYR3oNFbaEXjqGjI/ddBE0khz4k6CNRmoEaZRcZQdvBaviSybiy2dKRgAwUiA==
 
 "@plurid/plurid-functions-react@^0.0.1":
   version "0.0.1"
@@ -1387,10 +1387,10 @@
   resolved "https://registry.yarnpkg.com/@plurid/plurid-pubsub/-/plurid-pubsub-0.1.8.tgz#0a63976f8d45e51b9e75e5445e4d70b210d568de"
   integrity sha512-CO+/lD2XbLAvjUFogG9CKUK7cVr5nZJuJ4mLssEtoiaA8u1MKWxJcPWn/SpKLXNTFDi7gj1bOCdK1OFxyWXKHw==
 
-"@plurid/plurid-react@^0.1.183":
-  version "0.1.183"
-  resolved "https://registry.yarnpkg.com/@plurid/plurid-react/-/plurid-react-0.1.183.tgz#92e772967dfec05d622139d4ab9817819a36bef4"
-  integrity sha512-6ZewuvfSbapFqj3iv3gRCfXA5mKZ0XV2fZupcELVAtECmEHHxRSg0O8fVzgEex+d+1uhOdsydbQhFFaYTy/pNQ==
+"@plurid/plurid-react@^0.1.185":
+  version "0.1.185"
+  resolved "https://registry.yarnpkg.com/@plurid/plurid-react/-/plurid-react-0.1.185.tgz#7ef248e6cba703e82a5803b43c142e7e84ca55a4"
+  integrity sha512-Jno3Xa81FIxGhzb/q5TXviMhiH/gTs2m/uDarigLeIIUCqTxWvucEzNGSKhHD2xvw7s1DVBFow1OJTuYsyh15g==
 
 "@plurid/plurid-themes@^0.1.26":
   version "0.1.26"
@@ -1538,10 +1538,10 @@
     "@babel/runtime" "^7.10.2"
     "@testing-library/dom" "^7.14.2"
 
-"@testing-library/user-event@^12.0.2":
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-12.0.2.tgz#66fa2c64a50b47726c008eacecb9a42b43cd9a2b"
-  integrity sha512-hJLv9saOJ7WJsRINPPTMmgEya85+L55FRRf1xgFO8HznaUO58YOf+cj+yf/POkhls9pVIPLRoGjzxgvmAsptYg==
+"@testing-library/user-event@^12.0.7":
+  version "12.0.7"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-12.0.7.tgz#6028d8de294ebd1cbf63812bc40f99e61b82f318"
+  integrity sha512-v/1DS6V6P5zJVq5HCC/NU93CQaqML+exslOOYRmE71ULvtOCS4Fv6A2wgBjIsEEecjZtdS2LF+KlrOK3KvVZBA==
   dependencies:
     "@babel/runtime" "^7.10.2"
 
